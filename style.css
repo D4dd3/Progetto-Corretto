@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+.group:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Header */
+
+header{
+    border: 1px solid red;
+    width: 100%;
+    position: fixed;
+    top:0;
+    left:0;
+    padding: 30px;
+    display: flex;
+    background: black;
+}
+.logo{
+}
