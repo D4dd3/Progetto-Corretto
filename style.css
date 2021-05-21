@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
 }
-/* commentino */
 .group:after {
     content: "";
     display: table;
