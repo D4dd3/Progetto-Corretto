@@ -9,14 +9,18 @@
 
 /* Base Style */
 
-body{font-family: 'Inter', sans-serif;font-size: 16px;}
+body{font-family: 'Inter', sans-serif;font-size: 16px;
+    
+}
 
 a{
     text-decoration: none;
 }
 
 h1,h2,h3,h4,h5,p{color: black;padding-bottom: 30px;}
-
+h2{
+    margin-left: 110px;
+}
 
 .big-text{font-size: 70px; font-weight: 900;}
 .med-text{font-size: 40px;}
@@ -78,5 +82,22 @@ header{
     padding: 30px;
 }
 
+.immagine{
+    margin:auto;
+    padding-left: 80px;
+    margin-left: 30px;
+}
+.imm{
+    padding: 15px;
+    float: left;
+    width: 33%;
+    text-align: center;
+}
 .hero__content h1,
+<<<<<<< HEAD
 .hero__content p{color:white;}
+=======
+.hero__content p{color:black;}
+
+.button2{padding: 8px 30px; background: red; color: #fff; display: inline-block; border-radius: 4px; margin-top: 10px; }
+>>>>>>> c04957c05cae61f82d42416ead33fe20eb76bb08
