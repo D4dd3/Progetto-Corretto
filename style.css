@@ -94,10 +94,6 @@ header{
     text-align: center;
 }
 .hero__content h1,
-<<<<<<< HEAD
 .hero__content p{color:white;}
-=======
-.hero__content p{color:black;}
 
 .button2{padding: 8px 30px; background: red; color: #fff; display: inline-block; border-radius: 4px; margin-top: 10px; }
->>>>>>> c04957c05cae61f82d42416ead33fe20eb76bb08
