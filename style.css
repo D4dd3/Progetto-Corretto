@@ -9,8 +9,12 @@
 
 /* Base Style */
 
-body{font-family: 'Inter', sans-serif;font-size: 16px;
-    
+body{font-family: 'Inter', sans-serif;font-size: 16px;}
+
+
+html {
+    line-height: 1.15;
+    text-size-adjust: 100%;
 }
 
 a{
@@ -19,15 +23,16 @@ a{
 
 h1,h2,h3,h4,h5,p{color: black;padding-bottom: 30px;}
 h2{
-    margin-left: 110px;
+    margin-left: 32px;
+    padding-bottom: 8px;
 }
 
-.big-text{font-size: 70px; font-weight: 900;}
+.big-text{font-size: 60px; font-weight: 900;}
 .med-text{font-size: 40px;}
 .normal-text{font-size: 20px;}
 .small-text{font-size: 14px;}
 
-.intro-text{text-transform: uppercase;font-size: 20px;font-weight: bold;}
+.intro-text{text-transform: uppercase;font-size: 13px;font-weight: bold;}
 
 .button{padding: 6px 25px; background: red; color: #fff; display: inline-block; border-radius: 4px;}
 
@@ -46,14 +51,17 @@ header{
     top:0;
     left:0;
     padding: 30px;
+    padding-bottom: 5px;
     display: flex;
     background: white;
 }
 .menu{width: 100%;}
 
-.logo{}
 
-.cta{}
+
+.cta{
+    display: inline-block;
+}
 
 
 .menu li{display: inline-block}
@@ -82,14 +90,26 @@ header{
     padding: 30px;
 }
 
+/* PUBBLICITA'*/
+
+.pubb{
+    width: 100%;
+    padding: 45px;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+/*SHOP*/
+
 .immagine{
     margin:auto;
-    padding-left: 80px;
-    margin-left: 30px;
 }
 .imm{
     padding: 15px;
-    float: left;
+    padding-top: 0px;
+    display: inline-block;
     width: 33%;
     text-align: center;
 }
@@ -97,3 +117,55 @@ header{
 .hero__content p{color:white;}
 
 .button2{padding: 8px 30px; background: red; color: #fff; display: inline-block; border-radius: 4px; margin-top: 10px; }
+
+div {
+    display: block;
+}
+
+
+/*FINE*/
+
+.end{
+    width: 100%;
+    flex: 0 0 auto;
+    padding: 50px;
+    background-color: black;
+    color: white;
+    margin-top: 40px;
+}
+
+.logo{
+    text-align: center;
+}
+.contatti1{
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+.contatti1 p{
+    color: white;
+    font-size: 18px;
+    padding-bottom: 0;
+}
+.contatti2{
+    text-align: center;
+    padding: 5px;
+    padding-top: 0;
+    width: 40%;
+    background:black;
+    margin: auto;
+}
+.contatti2 li{display: inline-block; padding: 6px; margin: auto;}
+
+/*FOOTER*/
+footer{
+    clear: both;
+    padding: 10px;
+    font-style: italic;
+    background: black;
+    color: white;
+}
+
+
+
+
