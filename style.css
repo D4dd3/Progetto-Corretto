@@ -266,3 +266,61 @@ footer{
 .big{
     text-align: center;
 }
+.big h1{
+        font-family: "Helvetica Neue"; font-size: 26px; font-style: normal; font-variant: small-caps; font-weight: 700; line-height: 27.5px; padding: 5px; margin: 0; padding-bottom: 0;
+}
+.big p{
+        font-family: "Helvetica Neue"; font-size: 18px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px;
+        padding: 5px; padding-top: 2px;
+}
+.big h2{
+    font-family: "Helvetica Neue"; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
+}
+.text{
+    padding: 10px;
+    text-align: justify;
+    padding-right: 50px;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.text p{
+    font-family: "Helvetica Neue"; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px;
+}
+.foglio2{
+    margin: auto;
+    margin-left: 85px;
+    margin-right: 85px;
+}
+.down{
+    width: 100%;
+    background: white;
+    margin-bottom: 75px;
+}
+.share{
+    width: 100%;
+}
+
+.share li{
+    display: inline-block;
+    font-weight: 700;
+}
+.share img{
+    padding-left: 15px;
+}
+
+/*PAGINA SQUADRA*/
+
+.portieri{
+    width: 100%;
+}
+.immP{
+    width: 24%;
+    display: inline-block;
+    padding: 5px;
+}
+.change {
+    font-family: "Helvetica Neue"; font-size: 28px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
+}
+.portieri h2{
+    font-family: "Helvetica Neue"; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 24.2px; color: goldenrod;
+}
