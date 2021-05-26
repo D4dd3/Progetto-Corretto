@@ -56,8 +56,9 @@ header{
 .cta{}
 
 
-.menu li{display: inline-block}
+.menu li{ display: inline-block}
 .menu li a{color:black;padding: 10px;display: block;}
+
 
 
 @media (max-width: 768px) {
@@ -97,3 +98,25 @@ header{
 .hero__content p{color:white;}
 
 .button2{padding: 8px 30px; background: red; color: #fff; display: inline-block; border-radius: 4px; margin-top: 10px; }
+
+.button2:hover{
+    color:black;
+}
+.button:hover{
+    color: black;
+}
+.menu li{
+    text-decoration: none;
+    padding: 30px;
+    border: 5px solid black;
+    border-radius: 5px;
+    width: 150px;
+    height: 80px;
+    color: white;
+    background-color: rgb(255, 107, 107);
+}
+
+.menu li:hover{
+    padding: 45px;
+    background-color: rgb(255, 0, 0);
+}
