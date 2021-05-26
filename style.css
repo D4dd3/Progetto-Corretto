@@ -12,6 +12,8 @@
 body{font-family: 'Inter', sans-serif;font-size: 16px;}
 
 
+
+
 html {
     line-height: 1.15;
     text-size-adjust: 100%;
@@ -45,7 +47,7 @@ h2{
 
 /* Header */
 
-header{
+.banner{
     width: 100%;
     position: fixed;
     top:0;
@@ -54,6 +56,7 @@ header{
     padding-bottom: 5px;
     display: flex;
     background: white;
+    z-index: 1;
 }
 .menu{width: 100%;}
 
@@ -81,6 +84,7 @@ header{
     display: flex; width: 100%; align-items: center;
     background: linear-gradient(0deg, rgba(0,0,0,.8), rgba(0,0,0,0)), url('back2.png') no-repeat center center;
     background-size: cover;
+    margin-top: 150px;
 }
 
 .hero__content{
@@ -89,6 +93,56 @@ header{
     margin: 0 auto;
     padding: 30px;
 }
+
+
+/*NEWS*/
+
+.news{
+    padding: 5px;
+}
+.immnews{
+    width: 49%;
+    display: inline-block;
+    padding: 15px;
+}
+.immnews img{
+    transition: 1.5s;
+}
+.immnews img:hover{
+    transform: scale(1.05);
+}
+.immnews img:hover > .banner{display: none;}
+
+.immnews2{
+    width: 33%;
+    display: inline-block;
+    padding: 10px;
+    padding-top: 35px;
+}
+.immnews2 img{
+    transition: 1.5s;
+}
+.immnews2 img:hover{
+    transform: scale(1.05);
+}
+
+
+.news p{
+    font-family: "Helvetica Neue"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px;
+    padding: 0;
+}
+.news h1{
+    font-family: "Helvetica Neue"; font-size: 25px; font-style: normal; font-variant: small-caps; font-weight: 700; line-height: 27.5px; padding: 20px; padding-bottom: 5px; margin: 0;
+}
+.news h2{
+    font-family: "Helvetica Neue"; font-size: 30px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 33px; padding: 0; margin: 0;
+}
+.immnews2 h2{
+    font-family: "Helvetica Neue"; font-size: 22px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 33px; padding: 0; margin: 0;
+}
+
+
+
 
 /* PUBBLICITA'*/
 
