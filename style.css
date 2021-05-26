@@ -1,3 +1,6 @@
+@import url("./media.css");
+
+
 * {
     box-sizing: border-box;
 }
@@ -71,11 +74,6 @@ h2{
 .menu li a{color:black;padding: 10px;display: block;}
 
 
-@media (max-width: 768px) {
-
-.cta{display: none;}
-
-}
 
 /* Hero*/
 
@@ -111,7 +109,6 @@ h2{
 .immnews img:hover{
     transform: scale(1.05);
 }
-.immnews img:hover > .banner{display: none;}
 
 .immnews2{
     width: 33%;
@@ -175,6 +172,9 @@ h2{
 div {
     display: block;
 }
+.immagine h1{
+    font-family: "Helvetica Neue"; font-size: 25px; font-style: normal; font-variant: small-caps; font-weight: 700; line-height: 27.5px; padding: 35px; padding-bottom: 5px;
+}
 
 
 /*FINE*/
@@ -222,4 +222,47 @@ footer{
 
 
 
+/*PAGINA NEWS*/
 
+.foglio{
+    margin: auto;
+    margin-left: 85px;
+    margin-right: 85px;
+    margin-top: 150px;
+}
+.immnews3{
+    width: 49%;
+    display: inline-block;
+    padding: 10px;
+}
+.immnews4{
+    width: 33%;
+    display: inline-block;
+    padding: 10px;
+    padding-top: 35px;
+}
+.immnews4 h2{
+    font-family: "Helvetica Neue"; font-size: 22px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 33px; padding: 0; margin: 0;
+}
+.immnews3 img{
+    transition: 1.5s;
+}
+.immnews3 img:hover{
+    transform: scale(1.05);
+}
+.immnews4 img{
+    transition: 1.5s;
+}
+.immnews4 img:hover{
+    transform: scale(1.05);
+}
+.foglio h1{
+    padding-bottom: 20px;
+}
+
+
+/*PAGINA BIGLIETTERIA*/
+
+.big{
+    text-align: center;
+}
