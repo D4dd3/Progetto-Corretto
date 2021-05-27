@@ -234,7 +234,6 @@ footer{
     color: black;
 }
 
-.dec { font-family: "Helvetica Neue"; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; }
 
 /*PAGINA NEWS*/
 
@@ -242,7 +241,7 @@ footer{
     margin: auto;
     margin-left: 85px;
     margin-right: 85px;
-    margin-top: 150px;
+    margin-top: 175px;
 }
 .immnews3{
     width: 49%;
