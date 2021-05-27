@@ -1,3 +1,6 @@
+@import url("./media.css");
+
+
 * {
     box-sizing: border-box;
 }
@@ -10,6 +13,8 @@
 /* Base Style */
 
 body{font-family: 'Inter', sans-serif;font-size: 16px;}
+
+
 
 
 html {
@@ -45,7 +50,7 @@ h2{
 
 /* Header */
 
-header{
+.banner{
     width: 100%;
     position: fixed;
     top:0;
@@ -54,6 +59,7 @@ header{
     padding-bottom: 5px;
     display: flex;
     background: white;
+    z-index: 1;
 }
 .menu{width: 100%;}
 
@@ -69,11 +75,6 @@ header{
 
 
 
-@media (max-width: 768px) {
-
-.cta{display: none;}
-
-}
 
 /* Hero*/
 
@@ -82,6 +83,7 @@ header{
     display: flex; width: 100%; align-items: center;
     background: linear-gradient(0deg, rgba(0,0,0,.8), rgba(0,0,0,0)), url('back2.png') no-repeat center center;
     background-size: cover;
+    margin-top: 150px;
 }
 
 .hero__content{
@@ -90,6 +92,55 @@ header{
     margin: 0 auto;
     padding: 30px;
 }
+
+
+/*NEWS*/
+
+.news{
+    padding: 5px;
+}
+.immnews{
+    width: 49%;
+    display: inline-block;
+    padding: 15px;
+}
+.immnews img{
+    transition: 1.5s;
+}
+.immnews img:hover{
+    transform: scale(1.05);
+}
+
+.immnews2{
+    width: 33%;
+    display: inline-block;
+    padding: 10px;
+    padding-top: 35px;
+}
+.immnews2 img{
+    transition: 1.5s;
+}
+.immnews2 img:hover{
+    transform: scale(1.05);
+}
+
+
+.news p{
+    font-family: "Helvetica Neue"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px;
+    padding: 0;
+}
+.news h1{
+    font-family: "Helvetica Neue"; font-size: 25px; font-style: normal; font-variant: small-caps; font-weight: 700; line-height: 27.5px; padding: 20px; padding-bottom: 5px; margin: 0;
+}
+.news h2{
+    font-family: "Helvetica Neue"; font-size: 30px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 33px; padding: 0; margin: 0;
+}
+.immnews2 h2{
+    font-family: "Helvetica Neue"; font-size: 22px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 33px; padding: 0; margin: 0;
+}
+
+
+
 
 /* PUBBLICITA'*/
 
@@ -121,6 +172,9 @@ header{
 
 div {
     display: block;
+}
+.immagine h1{
+    font-family: "Helvetica Neue"; font-size: 25px; font-style: normal; font-variant: small-caps; font-weight: 700; line-height: 27.5px; padding: 35px; padding-bottom: 5px;
 }
 
 
@@ -173,3 +227,105 @@ footer{
 
 .dec { font-family: "Helvetica Neue"; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; }
 
+/*PAGINA NEWS*/
+
+.foglio{
+    margin: auto;
+    margin-left: 85px;
+    margin-right: 85px;
+    margin-top: 150px;
+}
+.immnews3{
+    width: 49%;
+    display: inline-block;
+    padding: 10px;
+}
+.immnews4{
+    width: 33%;
+    display: inline-block;
+    padding: 10px;
+    padding-top: 35px;
+}
+.immnews4 h2{
+    font-family: "Helvetica Neue"; font-size: 22px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 33px; padding: 0; margin: 0;
+}
+.immnews3 img{
+    transition: 1.5s;
+}
+.immnews3 img:hover{
+    transform: scale(1.05);
+}
+.immnews4 img{
+    transition: 1.5s;
+}
+.immnews4 img:hover{
+    transform: scale(1.05);
+}
+.foglio h1{
+    padding-bottom: 20px;
+}
+
+
+/*PAGINA BIGLIETTERIA*/
+
+.big{
+    text-align: center;
+}
+.big h1{
+        font-family: "Helvetica Neue"; font-size: 26px; font-style: normal; font-variant: small-caps; font-weight: 700; line-height: 27.5px; padding: 5px; margin: 0; padding-bottom: 0;
+}
+.big p{
+        font-family: "Helvetica Neue"; font-size: 18px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px;
+        padding: 5px; padding-top: 2px;
+}
+.big h2{
+    font-family: "Helvetica Neue"; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
+}
+.text{
+    padding: 10px;
+    text-align: justify;
+    padding-right: 50px;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.text p{
+    font-family: "Helvetica Neue"; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px;
+}
+.foglio2{
+    margin: auto;
+    margin-left: 85px;
+    margin-right: 85px;
+}
+.down{
+    width: 100%;
+    background: white;
+    margin-bottom: 75px;
+}
+.share{
+    width: 100%;
+}
+
+.share li{
+    display: inline-block;
+    font-weight: 700;
+}
+.share img{
+    padding-left: 15px;
+}
+
+/*PAGINA SQUADRA*/
+
+.portieri{
+    width: 100%;
+}
+.immP{
+    width: 24%;
+    display: inline-block;
+    padding: 5px;
+}
+.change {
+    font-family: "Helvetica Neue"; font-size: 28px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
+}
+.portieri h2{
+    font-family: "Helvetica Neue"; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 24.2px; color: goldenrod;
+}
