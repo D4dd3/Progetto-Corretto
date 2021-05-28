@@ -46,8 +46,17 @@
                 <a href="https://eu.puma.com/it/it/home"><img src="./Immagini/Puma_Resize_2.png"
                         alt="non è possibile visualizzare l'immagine" height="75px"></a>
             </div>
-
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
+        <!--TENDINA-->
+        <ul class="submenu">
+            <li><a href="apollo-11.html">apollo 11</a></li>
+            <li><a href="apollo-17.html">apollo 17</a></li>
+          </ul>
 
         <!--IMMAGINE SFONDO-->
         <div class="hero">
@@ -149,6 +158,18 @@
 
         <footer>Pagina scritta da Oggiano e Lepore</footer>
 
+        <!--JQUERY-->
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+        <script>
+            $( document ).ready(function() {
+
+                /*Open Panel*/
+                $( ".hamburger" ).on('click', function() {
+                    $(".menu").toggleClass("menu--open");
+                });
+            });
+        </script>
 
 
     </div>

@@ -82,7 +82,12 @@ h2{
 .menu li a:hover{
     color: black;
 }
-
+.hamburger{
+    display: none;
+}
+.menu--open{
+    right: 0px;
+}
 
 
 /* Hero*/
