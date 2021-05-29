@@ -16,7 +16,7 @@
         <!--MENU-->
 
         <div class="banner">
-            <div class="">
+            <div class="logo">
                 <a href="../index.html"><img src="../Immagini/logo.png" alt="non è possibile visualizzare l'immagine"
                         width="60px"></a>
             </div>
@@ -45,7 +45,11 @@
                 <a href="https://eu.puma.com/it/it/home"><img src="../Immagini/Puma_Resize_2.png"
                         alt="non è possibile visualizzare l'immagine" height="75px"></a>
             </div>
-
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
 
         <div class="foglio">
@@ -134,7 +138,18 @@
             </div>
         </div>
 
+        <!--JQUERY-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
+        <script>
+            $(document).ready(function () {
+
+                /*Open Panel*/
+                $(".hamburger").on('click', function () {
+                    $(".menu").toggleClass("menu--open");
+                });
+            });
+        </script>
         <!--FINE-->
 
         <div class="end">
