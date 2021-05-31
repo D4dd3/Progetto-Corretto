@@ -17,9 +17,9 @@
         <!--MENU-->
 
         <div class="banner">
-            <div class="">
-                <a href="index.html"><img src="./Immagini/logo.png"
-                        alt="non è possibile visualizzare l'immagine" width="60px"></a>
+            <div class="logo">
+                <a href="index.html"><img src="./Immagini/logo.png" alt="non è possibile visualizzare l'immagine"
+                        width="60px"></a>
             </div>
             <ul class="menu">
                 <li class="remove"><a href="https://it-it.facebook.com/"><img src="./png/fb_gr@4x.png"
@@ -48,8 +48,17 @@
                 <a href="https://eu.puma.com/it/it/home"><img src="./Immagini/Puma_Resize_2.png"
                         alt="non è possibile visualizzare l'immagine" height="75px"></a>
             </div>
-
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
+        <!--TENDINA-->
+    <!--<ul class="submenu">
+            <li><a href="apollo-11.html">apollo 11</a></li>
+            <li><a href="apollo-17.html">apollo 17</a></li>
+        </ul>-->
 
         <!--IMMAGINE SFONDO-->
         <div class="hero">
@@ -107,7 +116,8 @@
         <!--PUBBLICITA'-->
 
         <div class="pubb">
-            <a href="https://www.a2aenergia.eu/"><img src="./Immagini/pubblicità.png" alt="impossibile visualizzare" width="100%"></a>
+            <a href="https://www.a2aenergia.eu/"><img src="./Immagini/pubblicità.png" alt="impossibile visualizzare"
+                    width="100%"></a>
         </div>
 
         <!--SHOP-->
@@ -151,9 +161,22 @@
 
         <footer>Pagina scritta da Oggiano e Lepore</footer>
 
+        <!--JQUERY-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+        <script>
+            $( document ).ready(function() {
+
+                /*Open Panel*/
+                $(".hamburger").on('click', function () {
+                    $(".menu").toggleClass("menu--open");
+                });
+            });
+        </script>
 
 
     </div>
+
 </body>
 
 </html>

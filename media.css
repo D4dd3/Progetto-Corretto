@@ -134,6 +134,55 @@
 
 /*------------------------------------------------------------------- 599px x 280px ---------------------------------------------------------------------*/
 @media only screen and (min-width: 280px) and (max-width: 599px){
+
+    /*HEADER*/
+    .menu{
+        position: absolute;
+        top: 0;
+        right: -100%;
+        background: black;
+        height: 100vh;
+        padding-top: 80px;
+    }
+    .menu li{
+        display: block;
+    }
+    .hamburger{
+        display: block;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: 40px;
+        right: 30px;
+    }
+    .hamburger span{
+        background: red;
+        height: 3px;
+        width: 100%;
+        display: block;
+        margin-bottom: 5px;
+    }
+    .menu--open{
+        right: 0px;
+        background: white;
+    }
+    .banner{
+        background:none;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    .logo{
+        display: none;
+    }
+    
+    /*HERO*/
+
+    .hero{
+        margin-top: 0px;
+    }
+
+    /*NEWS*/
+
     .pubb{
         display: none;
     }
@@ -167,13 +216,14 @@
         margin: auto;
         margin-left: 5%;
         margin-right: 5%;
-        margin-top: 45%;
+        margin-top: 10%;
     }
     .immnews3{
         padding-top: 10%;
+        width: 99%;
     }
     .immnews4{
-        width: 32%;
+        width: 99%;
         display: inline-block;
         padding: 1%;
         padding-top: 1%;

@@ -82,6 +82,9 @@ h2{
 .menu li a:hover{
     color: black;
 }
+.hamburger{
+    display: none;
+}
 
 
 
@@ -234,7 +237,6 @@ footer{
     color: black;
 }
 
-.dec { font-family: "Helvetica Neue"; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; }
 
 /*PAGINA NEWS*/
 
